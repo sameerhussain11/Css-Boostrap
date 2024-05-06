@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 20vw;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    color: white;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 0;
+}
+
+.c-tumb {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.c-logo {
+    width: 20%;
+}
+
+.c-logo img {
+    width: 36px;
+    border-radius: 100%;
+}
+
+.card-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.c-last {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: gray;
+    position: relative;
+    left: 40px;
+}
+
+.c-last p {
+    margin: 0;
+}
+.card:hover .c-tumb {
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+header{
+    background-color: black;
+    color: white;
+}
+.h-img {
+    background-color: #ff0000; 
+    border: 5px solid #282828; 
+    width: 134px; 
+    border-radius: 40%; 
+    text-align: center;
+    font-family: "Roboto", sans-serif; 
+    font-size: 24px; 
+    font-weight: 700; 
+    padding: 10px; 
+}
+.h-img:hover {
+    border: 5px solid rgb(131, 131, 131);
+    cursor:pointer;
+    
+
+}
+@media screen and (min-width:325px){
+    .h-img{
+        width:114px;
+        position: relative;
+        left: 10px;
+    }
+    
+}
+@media screen and (max-width:1366px){
+    .h-img{
+        position: relative;
+        left: 10px;
+    }
+    
+}
