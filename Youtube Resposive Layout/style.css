@@ -25,6 +25,9 @@ body {
     gap: 5px;
     padding: 0;
 }
+.card-body:hover{
+    cursor:pointer;
+}
 
 .c-tumb {
     width: 100%;
@@ -54,11 +57,13 @@ body {
     position: relative;
     left: 40px;
 }
-
+.c-last:hover {
+    cursor: pointer;
+}
 .c-last p {
     margin: 0;
 }
-.card:hover .c-tumb {
+.c-tumb:hover  {
     transform: scale(0.9);
     transition: transform 0.3s ease;
     cursor: pointer;
